@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "titulo": "Smells Like Teen Spirit",
+        "artista": "Nirvana",
+        "album": "Nevermind",
+        "ano": 1991,
+        "duracao": "5:01",
+        "genero": "Grunge",
+        "capa": "/capas/nevermind.jpg"
+    },
+    {
+        "id": 2,
+        "titulo": "In the End",
+        "artista": "Linkin Park",
+        "album": "Hybrid Theory",
+        "ano": 2000,
+        "duracao": "3:36",
+        "genero": "Nu Metal",
+        "capa": "/capas/hybrid-theory.jpg"
+    },
+    {
+        "id": 3,
+        "titulo": "Sweet Child O' Mine",
+        "artista": "Guns N' Roses",
+        "album": "Appetite for Destruction",
+        "ano": 1987,
+        "duracao": "5:56",
+        "genero": "Hard Rock",
+        "capa": "/capas/appetite-for-destruction.jpg"
+    },
+    {
+        "id": 4,
+        "titulo": "Californication",
+        "artista": "Red Hot Chili Peppers",
+        "album": "Californication",
+        "ano": 1999,
+        "duracao": "5:29",
+        "genero": "Alternative Rock",
+        "capa": "/capas/californication.jpg"
+    },
+    {
+        "id": 5,
+        "titulo": "Enter Sandman",
+        "artista": "Metallica",
+        "album": "Metallica (The Black Album)",
+        "ano": 1991,
+        "duracao": "5:31",
+        "genero": "Heavy Metal",
+        "capa": "/capas/metallica.jpg"
+    },
+    {
+        "id": 6,
+        "titulo": "Highway to Hell",
+        "artista": "AC/DC",
+        "album": "Highway to Hell",
+        "ano": 1979,
+        "duracao": "3:28",
+        "genero": "Hard Rock",
+        "capa": "/capas/hybrid-theory.jpg"
+    },
+    {
+        "id": 7,
+        "titulo": "Paranoid",
+        "artista": "Black Sabbath",
+        "album": "Paranoid",
+        "ano": 1970,
+        "duracao": "2:48",
+        "genero": "Heavy Metal",
+        "capa": "/capas/paranoid.jpg"
+    },
+    {
+        "id": 8,
+        "titulo": "Toxicity",
+        "artista": "System of a Down",
+        "album": "Toxicity",
+        "ano": 2001,
+        "duracao": "3:38",
+        "genero": "Alternative Metal",
+        "capa": "/capas/toxicity.jpg"
+    },
+    {
+        "id": 9,
+        "titulo": "The Kids Aren't Alright",
+        "artista": "The Offspring",
+        "album": "Americana",
+        "ano": 1998,
+        "duracao": "3:00",
+        "genero": "Punk Rock",
+        "capa": "/capas/americana.jpg"
+    },
+    {
+        "id": 10,
+        "titulo": "Duality",
+        "artista": "Slipknot",
+        "album": "Vol. 3: (The Subliminal Verses)",
+        "ano": 2004,
+        "duracao": "4:12",
+        "genero": "Nu Metal",
+        "capa": "/capas/vol-3.jpg"
+    },
+    {
+        "id": 11,
+        "titulo": "Last Resort",
+        "artista": "Papa Roach",
+        "album": "Infest",
+        "ano": 2000,
+        "duracao": "3:19",
+        "genero": "Nu Metal",
+        "capa": "/capas/infest.jpg"
+    },
+    {
+        "id": 12,
+        "titulo": "American Idiot",
+        "artista": "Green Day",
+        "album": "American Idiot",
+        "ano": 2004,
+        "duracao": "2:54",
+        "genero": "Punk Rock",
+        "capa": "/capas/american-idiot.jpg"
+    },
+    {
+        "id": 13,
+        "titulo": "Bring Me to Life",
+        "artista": "Evanescence",
+        "album": "Fallen",
+        "ano": 2003,
+        "duracao": "3:56",
+        "genero": "Alternative Metal",
+        "capa": "/capas/fallen.jpg"
+    }
+]

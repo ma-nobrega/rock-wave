@@ -1,0 +1,133 @@
+/* ========================= */
+/* RESET GLOBAL */
+/* ========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ========================= */
+/* LAYOUT PRINCIPAL */
+/* ========================= */
+
+.pagina {
+  min-height: 100vh;
+  background: #0f0f0f;
+  color: #ffffff;
+  padding: 40px 20px;
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
+/* ========================= */
+/* HEADER / TOPO */
+/* ========================= */
+
+.topo {
+  text-align: center;
+  margin-bottom: 34px;
+
+  .marca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    svg {
+      color: #ff0000;
+      font-size: 44px;
+      filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.35));
+    }
+  }
+
+  .tituloMarca {
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+
+    span {
+      color: #ff0000;
+    }
+  }
+
+  .subtitulo {
+    margin-top: 10px;
+    color: #9a9a9a;
+    font-size: 13px;
+  }
+
+  /* ========================= */
+  /* BUSCA */
+  /* ========================= */
+
+  .areaBusca {
+    margin-top: 30px;
+    text-align: left;
+
+    .campoBusca {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 16px 20px;
+      border-radius: 16px;
+      border: 1px solid #2a2a2a;
+      background: linear-gradient(145deg, #151515, #101010);
+      transition: 0.3s;
+
+      &:focus-within {
+        border: 1px solid #ff0000;
+        box-shadow: 0 0 20px rgba(255, 0, 0, 0.25);
+      }
+
+      svg {
+        color: #666666;
+        font-size: 14px;
+      }
+
+      input {
+        flex: 1;
+        background: transparent;
+        border: none;
+        outline: none;
+        color: #ffffff;
+        font-size: 15px;
+
+        &::placeholder {
+          color: #555555;
+        }
+      }
+    }
+
+    .contador {
+      margin-top: 10px;
+      font-size: 13px;
+      color: #888888;
+    }
+  }
+}
+
+/* ========================= */
+/* LISTA DE MÚSICAS */
+/* ========================= */
+
+.lista {
+  display: grid;
+  gap: 18px;
+  margin-top: 30px;
+}
+
+/* ========================= */
+/* ESTADO VAZIO */
+/* ========================= */
+
+.vazio {
+  text-align: center;
+  margin-top: 40px;
+  color: #888888;
+}
