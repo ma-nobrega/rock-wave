@@ -10,28 +10,43 @@
 }
 
 /* ========================= */
+/* TRAVA SCROLL DA PÁGINA */
+/* ========================= */
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* ========================= */
 /* LAYOUT PRINCIPAL */
 /* ========================= */
 
 .pagina {
-  min-height: 100vh;
+  height: 100vh;
   background: #0f0f0f;
   color: #ffffff;
-  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+}
 
-  .container {
-    max-width: 900px;
-    margin: 0 auto;
-  }
+.container {
+   max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* ========================= */
-/* HEADER / TOPO */
+/* HEADER / TOPO FIXO */
 /* ========================= */
 
 .topo {
+  flex: 0 0 auto;
+  background: #0f0f0f;
+  border-bottom: 1px solid #1f1f1f;
+  padding: 14px 0;
   text-align: center;
-  margin-bottom: 34px;
 
   .marca {
     display: flex;
@@ -47,7 +62,7 @@
   }
 
   .tituloMarca {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 800;
     letter-spacing: -0.5px;
 
@@ -62,19 +77,15 @@
     font-size: 13px;
   }
 
-  /* ========================= */
-  /* BUSCA */
-  /* ========================= */
-
   .areaBusca {
-    margin-top: 30px;
+    margin-top: 14px;
     text-align: left;
 
     .campoBusca {
       display: flex;
       align-items: center;
       gap: 10px;
-      padding: 16px 20px;
+      padding: 14px 18px;
       border-radius: 16px;
       border: 1px solid #2a2a2a;
       background: linear-gradient(145deg, #151515, #101010);
@@ -113,13 +124,47 @@
 }
 
 /* ========================= */
+/* CONTEÚDO COM SCROLL */
+/* ========================= */
+
+.conteudo {
+  flex: 1 1 auto;
+  margin: 12px 0;
+  overflow: auto;
+
+  /* deixa o scroll mais suave/bonito */
+  scrollbar-width: thin;
+  scrollbar-color: #2a2a2a transparent;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #2a2a2a;
+    border-radius: 999px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #3a3a3a;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+}
+
+/* ========================= */
 /* LISTA DE MÚSICAS */
 /* ========================= */
 
 .lista {
   display: grid;
   gap: 18px;
-  margin-top: 30px;
 }
 
 /* ========================= */
@@ -130,4 +175,49 @@
   text-align: center;
   margin-top: 40px;
   color: #888888;
+}
+
+/* ========================= */
+/* FOOTER FIXO */
+/* ========================= */
+
+.rodape {
+  flex: 0 0 auto;
+  background: #0f0f0f;
+  border-top: 1px solid #1f1f1f;
+  padding: 10px 0;
+  color: #9a9a9a;
+
+  .rodapeTopo {
+    display: grid;
+    gap: 6px;
+  }
+
+  .rodapeMarca {
+    color: #ffffff;
+    font-weight: 800;
+    letter-spacing: -0.3px;
+
+    span {
+      color: #ff0000;
+    }
+  }
+
+  .rodapeLinha {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .rodapeBaixo {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 12px;
+    color: #7a7a7a;
+  }
+
+  .rodapePonto {
+    color: #444444;
+  }
 }
