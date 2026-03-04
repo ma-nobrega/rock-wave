@@ -14,10 +14,13 @@ export default function App() {
   );
 
   function tocarOuPausar(musica) {
-    if (musicaAtual && musicaAtual.id === musica.id) {
-      setTocando(!tocando);
+    // clicou na mesma música
+    if (musicaAtual?.id === musica.id) {
+      setTocando((t) => !t);
       return;
     }
+
+    // clicou em outra música
     setMusicaAtual(musica);
     setTocando(true);
   }
@@ -84,10 +87,11 @@ export default function App() {
       </main>
 
       {/* player invisível */}
-      {musicaAtual && (
+      {musicaAtual && tocando && (
         <audio
+          key={musicaAtual.id}
           src={musicaAtual.arquivo}
-          autoPlay={tocando}
+          autoPlay
           onEnded={quandoAcabar}
           style={{ display: "none" }}
         />

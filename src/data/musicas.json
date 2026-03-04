@@ -7,7 +7,8 @@
         "ano": 1991,
         "duracao": "5:01",
         "genero": "Grunge",
-        "capa": "/capas/nevermind.jpg"
+        "capa": "/capas/nevermind.jpg",
+        "arquivo": "/musicas/smells-linke-teen-spirit.mp3"
     },
     {
         "id": 2,
@@ -17,7 +18,8 @@
         "ano": 2000,
         "duracao": "3:36",
         "genero": "Nu Metal",
-        "capa": "/capas/hybrid-theory.jpg"
+        "capa": "/capas/hybrid-theory.jpg",
+        "arquivo": "/musicas/in-the-end.mp3"
     },
     {
         "id": 3,
@@ -27,7 +29,8 @@
         "ano": 1987,
         "duracao": "5:56",
         "genero": "Hard Rock",
-        "capa": "/capas/appetite-for-destruction.jpg"
+        "capa": "/capas/appetite-for-destruction.jpg",
+        "arquivo": "/musicas/in-the-end.mp3"
     },
     {
         "id": 4,
@@ -37,7 +40,8 @@
         "ano": 1999,
         "duracao": "5:29",
         "genero": "Alternative Rock",
-        "capa": "/capas/californication.jpg"
+        "capa": "/capas/californication.jpg",
+        "arquivo": "/musicas/in-the-end.mp3"
     },
     {
         "id": 5,
@@ -47,7 +51,8 @@
         "ano": 1991,
         "duracao": "5:31",
         "genero": "Heavy Metal",
-        "capa": "/capas/metallica.jpg"
+        "capa": "/capas/metallica.jpg",
+        "arquivo": "/musicas/in-the-end.mp3"
     },
     {
         "id": 6,
@@ -57,7 +62,8 @@
         "ano": 1979,
         "duracao": "3:28",
         "genero": "Hard Rock",
-        "capa": "/capas/hybrid-theory.jpg"
+        "capa": "/capas/hybrid-theory.jpg",
+        "arquivo": "/musicas/in-the-end.mp3"
     },
     {
         "id": 7,
@@ -67,7 +73,8 @@
         "ano": 1970,
         "duracao": "2:48",
         "genero": "Heavy Metal",
-        "capa": "/capas/paranoid.jpg"
+        "capa": "/capas/paranoid.jpg",
+        "arquivo": "/musicas/in-the-end.mp3"
     },
     {
         "id": 8,
@@ -77,7 +84,8 @@
         "ano": 2001,
         "duracao": "3:38",
         "genero": "Alternative Metal",
-        "capa": "/capas/toxicity.jpg"
+        "capa": "/capas/toxicity.jpg",
+        "arquivo": "/musicas/in-the-end.mp3"
     },
     {
         "id": 9,
@@ -87,7 +95,8 @@
         "ano": 1998,
         "duracao": "3:00",
         "genero": "Punk Rock",
-        "capa": "/capas/americana.jpg"
+        "capa": "/capas/americana.jpg",
+        "arquivo": "/musicas/in-the-end.mp3"
     },
     {
         "id": 10,
@@ -97,7 +106,8 @@
         "ano": 2004,
         "duracao": "4:12",
         "genero": "Nu Metal",
-        "capa": "/capas/the-subliminal-verses.jpg"
+        "capa": "/capas/the-subliminal-verses.jpg",
+        "arquivo": "/musicas/duality.mp3"
     },
     {
         "id": 11,
@@ -107,7 +117,8 @@
         "ano": 2000,
         "duracao": "3:19",
         "genero": "Nu Metal",
-        "capa": "/capas/infest.jpg"
+        "capa": "/capas/infest.jpg",
+        "arquivo": "/musicas/in-the-end.mp3"
     },
     {
         "id": 12,
@@ -117,7 +128,8 @@
         "ano": 2004,
         "duracao": "2:54",
         "genero": "Punk Rock",
-        "capa": "/capas/american-idiot.jpg"
+        "capa": "/capas/american-idiot.jpg",
+        "arquivo": "/musicas/in-the-end.mp3"
     },
     {
         "id": 13,
@@ -127,6 +139,7 @@
         "ano": 2003,
         "duracao": "3:56",
         "genero": "Alternative Metal",
-        "capa": "/capas/fallen.jpg"
+        "capa": "/capas/fallen.jpg",
+        "arquivo": "/musicas/in-the-end.mp3"
     }
 ]

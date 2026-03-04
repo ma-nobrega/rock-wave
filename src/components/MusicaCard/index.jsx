@@ -1,4 +1,4 @@
-import { FaMusic, FaPlay, FaClock, FaCalendarAlt, FaPause } from "react-icons/fa";
+import { FaMusic, FaPlay, FaClock, FaCalendarAlt, FaStop } from "react-icons/fa";
 import styles from "./styles.module.css";
 
 export default function MusicaCard({
@@ -52,9 +52,9 @@ export default function MusicaCard({
                     className={styles.botaoPlay}
                     type="button"
                     onClick={onPlay}
-                    title={tocando ? `Pausar ${titulo}` : `Tocar ${titulo}`}
+                    title={tocando ? `Parar ${titulo}` : `Tocar ${titulo}`}
                 >
-                    {tocando ? <FaPause /> : <FaPlay />}
+                    {tocando ? <FaStop /> : <FaPlay />}
                 </button>
             </div>
         </article>
